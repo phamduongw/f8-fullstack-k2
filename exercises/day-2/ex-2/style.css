@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid #a4c9b9;
+  font-size: 50px;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+
+td:first-child {
+  border-left: 0px;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+#first-row {
+  border: 0px;
+  font-size: 60px;
+  text-align: right;
+  font-weight: normal;
+}
