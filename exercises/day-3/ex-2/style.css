@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.reviews {
+  padding: 38px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.review {
+  display: flex;
+  gap: 15px;
+}
+
+.review img {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+.review i {
+  display: inline-block;
+  width: 240px;
+}
+
+.review h2 {
+  font-size: 16px;
+}

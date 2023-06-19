@@ -1,0 +1,19 @@
+#title {
+  color: red;
+}
+
+.title {
+  color: green;
+}
+
+h2 {
+  color: violet;
+}
+
+.element > h1 {
+  color: red;
+}
+
+.menu > li > a {
+  color: red;
+}

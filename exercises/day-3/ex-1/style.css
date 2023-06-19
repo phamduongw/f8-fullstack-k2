@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 55px;
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'contact-info form-message form-message';
+}
+
+.contact-info {
+  grid-area: contact-info;
+}
+
+.form-message {
+  grid-area: form-message;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70px;
+  height: 2px;
+  background-color: #f3b535;
+}
+
+.contact-info div {
+  color: #989899;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  gap: 15px;
+}
+
+.contact-info i {
+  font-size: 30px;
+}
+
+.form-message input,
+textarea {
+  display: block;
+  margin-bottom: 14px;
+  padding: 12px;
+  width: 100%;
+}
+
+.form-message button {
+  border: none;
+  width: 128px;
+  height: 39px;
+  background-color: #63bab7;
+  color: #fff;
+}
