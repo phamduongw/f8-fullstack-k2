@@ -1,0 +1,175 @@
+/* p ~ ul {
+  color: red;
+}
+
+p ~ .children ul {
+  color: red;
+}
+
+.first h2 ~ h3 {
+  color: red;
+}
+.last h2 ~ h3 {
+  color: green;
+}
+ */
+
+/* .todos input:checked ~ span {
+  color: red;
+  text-decoration: line-through;
+} */
+
+/* p + h2,
+p + h2 + h2 {
+  color: red;
+} */
+
+/* h2 + h2 {
+  color: red;
+} */
+
+/* Attribute selector */
+
+/* ul li a[target] {
+  color: red;
+} */
+
+/* Bat ky the nao co thuoc tinh target */
+
+/* ul li [target] {
+  color: red;
+} */
+
+/* ul li a[href^="https://fullstack.edu.vn/"]
+{
+  color: red;
+}
+
+ul li a[href$="https://fullstack.edu.vn/"]
+{
+  color: red;
+} */
+
+/* ul li a[href*='fullstack.edu.vn'] {
+  color: red;
+} */
+
+/* [class^='item-'] {
+  color: red;
+} */
+/* 
+* {
+  color: red;
+} */
+
+/* ***** */
+/* co nhung thuoc tinh css co tinh thua ke con co nhung thuoc tinh css lai khong co tinh thua ke */
+/* .content > * {
+  border: 1px solid red;
+} */
+
+/* bat buoc phai co content, neu khong co content thi before se khong co hieu luc
+.title::before {
+  content: 'aa';
+} */
+
+/* .title::after {
+  content: 'a';
+  display: block;
+  height: 4px;
+  width: 50px;
+  background: red;
+} */
+
+/* p::first-line {
+  color: red;
+} */
+
+/* tach ra mot khoi rieng vi neu de chung se dinh line height
+p::first-letter {
+  font-weight: bold;
+  font-size: 100px;
+  color: green;
+} */
+
+/* p::selection {
+  color: yellow;
+  background: black;
+} */
+
+/* .checkbox input:checked ~ span {
+  color: red;
+} */
+
+/* .form input[disabled] {
+  border: 1px solid red;
+} */
+
+/* .form input:disabled {
+  border: 1px solid red;
+} */
+
+/* ben trong not la mot selector khac
+.products h2:not(.active) {
+  color: red;
+} */
+
+/* h2:first-child => phai dap ung du ca 2 dieu kien: vua la the h2 ma vua la the con dau tien cua 1 the cha */
+/* .products h2:first-child {
+  color: red;
+}
+.products h2:last-child {
+  color: green;
+}
+
+.products > h2:first-child {
+  color: red;
+}
+.products > h2:last-child {
+  color: green;
+} */
+
+/* .products h2:first-of-type {
+  color: red;
+}
+.products h2:last-of-type {
+  color: green;
+} */
+
+/* .products h2:nth-child(3) {
+  color: red;
+} */
+
+/* .products h2:nth-of-type(3) {
+  color: red;
+} */
+
+/* .products h2:nth-child(2n + 1) {
+  color: red;
+} */
+/* .products h2:nth-child(2n + 2) {
+  color: red;
+} */
+
+input:checked:nth-of-type(1) ~ .content {
+  color: red;
+}
+input:checked:nth-of-type(2) ~ .content {
+  color: green;
+}
+input:checked:nth-of-type(3) ~ .content {
+  color: blue;
+}
+
+item:hover::before {
+}
+
+item :hover::before {
+}
+
+item::before:hover {
+}
+
+/* emmet */
+
+/* hoc truoc cac attribute cua text */
