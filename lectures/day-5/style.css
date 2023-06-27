@@ -1,0 +1,133 @@
+/* @font-face {
+  font-family: 'Roboto';
+  src: url(./font/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./font/Roboto-Light.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./font/Roboto-Regular.ttf);
+  font-weight: 500;
+} */
+
+/* body {
+  color: rgb(67, 146, 126);
+}
+
+.box {
+  color: green;
+}
+
+.content {
+  color: pink;
+}
+
+.box .content h2 {
+  color: red;
+  font-size: 1em;
+}
+
+.box .content h2:hover {
+  color: inherit;
+} */
+
+/* html {
+  font-size: 20px;
+}
+
+.content p {
+  font-size: 2rem;
+} */
+
+/* body {
+  font-family: Roboto, sans-serif;
+  font-weight: ;
+}
+
+.content {
+  font-size: 40px;
+  line-height: 20px;
+  line-height: 1.2;
+} */
+
+/* p {
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  text-indent: 25px;
+}
+
+.title a {
+  text-decoration: line-through overline underline;
+  text-transform: uppercase;
+  word-wrap: break-word;
+} */
+
+/* .box {
+  text-align: center;
+  text-align: justify;
+  text-align-last: left;
+}
+
+div {
+  text-align: center;
+  display: inline-block;
+  background-color: red;
+  height: 200px;
+  width: 400px;
+} */
+
+/* 
+- background-color
+- background-image
+- background-position
+- background-repeat 
+- background-size
+- background-attachment
+- background
+*/
+
+/* body { */
+/* background-color: aquamarine;
+  background-image: url('https://fastly.picsum.photos/id/539/200/300.jpg?hmac=anJssHN1m53jBatiVAldD8gSdk_3w_5WHOCNCFvGFkk'); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* background-size: 400px 300px; */
+/* background-size: 50%; */
+/* height: 200vh; */
+/* background-attachment: fixed; */
+/* background: url('https://fastly.picsum.photos/id/539/200/300.jpg?hmac=anJssHN1m53jBatiVAldD8gSdk_3w_5WHOCNCFvGFkk')
+    no-repeat left top / 300px 200px fixed; */
+
+/* background: url('https://fastly.picsum.photos/id/539/200/300.jpg?hmac=anJssHN1m53jBatiVAldD8gSdk_3w_5WHOCNCFvGFkk')
+    no-repeat 0 0 / 300px 200px fixed; */
+/* } */
+
+.box {
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: red; */
+  /* border: 1px solid red; */
+  /* border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  border-top-width: 30px;
+  border-color: red green blue burlywood; */
+}
+
+/* border-style: solid | dashed | dotted | double */
+
+.content {
+  display: inline;
+  /* height: 0;
+  width: 0; */
+  border-width: 30px;
+  border-style: solid;
+  border-color: red green blueviolet aqua;
+}
