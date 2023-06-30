@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg')
+    no-repeat 0 0 / cover;
+  height: 100vh;
+}
+
+.login-wrapper {
+  position: relative;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.login-wrapper > i {
+  position: absolute;
+  padding: 15px;
+  font-size: 1.4rem;
+  top: 50%;
+  left: 41%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #ec6355;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-social {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  text-align: center;
+  color: #fff;
+  background: #ec6355;
+  padding: 70px 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+.login-social h2 {
+  font-size: 2.8rem;
+}
+
+.login-social h2::before {
+  content: 'JL';
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #ec6355;
+  margin-right: 8px;
+}
+
+.login-social p {
+  font-size: 1.4rem;
+}
+
+.login-social button {
+  align-self: center;
+  font-size: 1.5rem;
+  color: #ec6355;
+  padding: 12px 35px;
+  background-color: #fff;
+}
+
+.login-social > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login-social i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: #da5b4e;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.login-account {
+  text-align: center;
+  background: #fff;
+  color: #717171;
+  padding: 37px 42px;
+  border-radius: 0 5px 5px 0;
+}
+
+.login-account h2 {
+  position: relative;
+  font-size: 2.3rem;
+  color: #272323;
+}
+
+.login-account h2 span {
+  color: #ec6355;
+}
+
+.login-account h2::after {
+  content: '';
+  display: block;
+  margin: 15px auto 20px;
+  height: 2px;
+  width: 55px;
+  background-color: #ec6355;
+}
+
+.login-account form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-account form input {
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  width: 330px;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+}
+
+.login-account form input::placeholder {
+  font-family: 'Nunito', sans-serif;
+}
+
+.login-account div {
+  font-size: 1.35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-account div label {
+  display: flex;
+  color: #717171;
+  font-weight: 500;
+  gap: 5px;
+}
+
+.check-box {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ebebeb;
+  border-radius: 3px;
+}
+
+.check-box::before {
+  display: none;
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 33%;
+  width: 3px;
+  height: 7px;
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+input[type='checkbox']:checked ~ .check-box::before {
+  display: inline;
+}
+
+.login-account div button {
+  background-color: #fff;
+  color: #717171;
+}
+
+.login-account form > button {
+  margin: 10px 0 20px;
+  background-color: #ec6355;
+  padding: 12px;
+  color: #fff;
+}
+
+.login-account > button {
+  font-size: 1.4rem;
+  background-color: #fff;
+  color: #717171;
+}
+
+.next-icon {
+  position: relative;
+}

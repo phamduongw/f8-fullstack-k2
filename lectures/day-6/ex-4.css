@@ -1,0 +1,30 @@
+/* .content {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  max-width: 500px;
+} */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-box {
+  display: inline-block;
+  width: 30%;
+}
+
+.box .image-box img {
+  max-width: 100%;
+  min-width: 100px;
+  height: auto;
+}
+
+.products {
+  display: flex;
+}
+
+.products .product {
+  width: 30%;
+}
