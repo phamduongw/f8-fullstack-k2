@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.image {
+  position: relative;
+}
+
+.product {
+  width: 200px;
+  margin: 30px auto;
+}
+
+.product img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.product .info {
+  padding: 10px;
+}
+
+.product .info h3 {
+  font-size: 1.2rem;
+}
+
+.product .info h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.product .sale {
+  background-color: rgba(255, 0, 0, 0.699);
+  color: #fff;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  padding: 2px 5px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}

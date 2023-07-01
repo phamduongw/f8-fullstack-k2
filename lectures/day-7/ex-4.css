@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.image {
+  border: 1px solid red;
+  margin: 5px;
+  padding: 80px 10px 10px 10px;
+}
+
+.image::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.image img {
+  border-radius: 50%;
+  shape-outside: circle(50%);
+  margin-right: 10px;
+  float: left;
+  display: block;
+}
+
+.image p {
+  margin-top: -70px;
+}

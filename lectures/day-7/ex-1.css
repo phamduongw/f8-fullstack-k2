@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.box {
+  /* border: 1px solid red; */
+  width: 300px;
+  /* outline: 100px solid red; */
+}

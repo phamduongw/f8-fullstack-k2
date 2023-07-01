@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: 'Asap', sans-serif;
+  font-size: 62.5%;
+}
+
+.profile {
+  background-image: url('https://images.spiderum.com/sp-images/6cb93a00adf211e9b1f4bf326c0fcf18.jpg');
+  width: 1200px;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  position: relative;
+}
+
+.profile > div {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.profile img {
+  width: 250px;
+  background-color: #fff;
+  padding: 50px 50px 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.profile .categories {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: #fff;
+  font-size: 1.6rem;
+  padding: 10px 60px;
+}
+
+.profile .info {
+  display: flex;
+  position: relative;
+  gap: 10px;
+  left: 50px;
+  color: #fff;
+}
+
+.profile .info .name h1 {
+  font-size: 2.4rem;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.profile .info .name > div {
+  display: flex;
+  gap: 40px;
+  font-size: 1.2rem;
+}
+
+.profile .info .name > div strong {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+input[type='radio']:checked ~ span {
+  color: #dc5d55;
+}
+
+input[type='radio']:checked ~ span::before {
+  display: inline;
+}
+
+input[type='radio'] ~ span {
+  color: #333;
+  font-weight: 600;
+  position: relative;
+}
+
+input[type='radio'] ~ span::before {
+  content: '';
+  display: none;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #dc5d55;
+  top: 130%;
+}

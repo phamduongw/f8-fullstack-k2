@@ -1,0 +1,9 @@
+.box {
+  border: 1px solid red;
+}
+
+/* 
+- inline: nằm trên 1 dòng, chiều rộng mặc định theo nội dung
+- block: set width, height, padding-top, padding-bottom, margin-top, margin-bottom
+- inline-block: Sự kết hợp giữa inlone và block
+ */
