@@ -1,0 +1,37 @@
+.check-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: gray;
+  position: relative;
+}
+
+.check-box::before {
+  content: '';
+  display: none;
+  top: 20%;
+  left: 30%;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border-style: solid;
+  border-width: 0px 2px 2px 0px;
+  border-color: red;
+  rotate: 45deg;
+}
+
+input[type='checkbox']:checked + label span::before {
+  display: inline-block;
+}
+
+input[type='checkbox']:checked + label .check-box {
+  background: aqua;
+}
+
+input:disabled + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: red;
+  position: relative;
+}
