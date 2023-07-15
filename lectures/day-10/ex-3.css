@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes color {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.box {
+  position: relative;
+}
+
+.box > h1:nth-child(1) {
+  color: green;
+}
+
+.box div {
+  position: absolute;
+  overflow: hidden;
+  background-color: blue;
+  top: 0;
+}
+
+/* .box div h1 {
+  position: absolute;
+  color: red;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */

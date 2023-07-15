@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+  color: #4b4b4b;
+}
+
+h2,
+.tag {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #000;
+  line-height: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about-us {
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+}
+
+.progress {
+  flex-grow: 1;
+}
+
+.image {
+  flex-grow: 1;
+}
+
+.period {
+  display: flex;
+  justify-content: center;
+}
+
+.desc > h2,
+.point,
+.timeline {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.desc {
+  position: absolute;
+  right: 30px;
+  width: max-content;
+  text-align: right;
+}
+
+.separator {
+  position: relative;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point span {
+  background: #ecf5f3;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point span::after {
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #59bcac, #3d8478);
+}
+
+.line {
+  width: 1px;
+  height: 140px;
+  background: #f4f4f6;
+}
+
+.tag {
+  background: #f3f3f3;
+  font-size: 1.6rem;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.timeline {
+  top: 0;
+  left: 30px;
+  position: absolute;
+  width: max-content;
+  font-size: 1.6rem;
+}
+
+.period:hover .timeline {
+  right: 30px;
+  left: auto;
+}
+
+.period:hover .desc {
+  left: 30px;
+  text-align: start;
+}
+
+.period:hover .desc h2 {
+  justify-content: flex-start;
+}
