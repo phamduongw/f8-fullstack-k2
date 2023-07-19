@@ -6,9 +6,8 @@
 }
 
 .container {
-  width: 500px;
-  border: 1px solid red;
-  margin: auto;
+  width: fit-content;
+  margin: 30px auto;
 }
 
 .container .row {
@@ -21,17 +20,13 @@
   border: 1px solid #fff;
   background: green;
   color: #fff;
-  width: 100%;
+}
+
+.item:nth-child(2) {
+  align-self: center;
 }
 
 .item:nth-child(3) {
-  align-self: center;
-}
-.item:nth-child(4) {
   display: flex;
   align-items: center;
-}
-
-h1 {
-  background: red;
 }

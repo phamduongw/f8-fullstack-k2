@@ -47,6 +47,7 @@ nav {
   left: 25px;
   top: 25px;
   z-index: 1;
+  background-color: red;
 }
 
 .burger-icon input,
